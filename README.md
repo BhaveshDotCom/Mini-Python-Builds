@@ -10,3 +10,5 @@ New builds are added regularly.
 | No. | Build Name              | Description                               |
 | --- | ----------------------- | ----------------------------------------- |
 | 1   | CipherTool | Simple tool for encoding and decoding messages |
+| 2   | EmailSlicer | Extracts username and domain from email addresses |
+| 3   | Timer | Countdown timer with DD:HH:MM:SS format |
