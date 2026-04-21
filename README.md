@@ -1,38 +1,14 @@
-# QR Code Generator
+# Mini Python Builds 
 
-A simple Python script to generate QR codes from any text or URL.
+This repository contains small Python builds created while learning.
+Each project focuses on implementing concepts through practical code.
 
-## Installation
+New builds are added regularly.
 
-```bash
-pip install qrcode[pil]
-```
+## 📋 Builds
 
-## Usage
-
-```python
-from QRCode import generate_qr_code
-
-generate_qr_code("https://example.com", "qrcode.png")
-```
-
-## Example
-
-```python
-data = "https://github.com/bhaveshDotcom"
-filename = "qrcode.png"
-generate_qr_code(data, filename)
-```
-
-This generates a QR code linking to `https://github.com/bhaveshDotcom` saved as `qrcode.png`.
-
-## Parameters
-
-- `data`: The text or URL to encode in the QR code
-- `filename`: The output filename for the generated QR code image
-
-The QR code uses:
-- Version 1 (smallest size, auto-fitted)
-- Low error correction
-- 10px box size
-- 2px border
+| No. | Build Name              | Description                               |
+| --- | ----------------------- | ----------------------------------------- |
+| 1   | CipherTool | Simple tool for encoding and decoding messages |
+| 2   | EmailSlicer | Extracts username and domain from email addresses |
+| 3   | Timer | Countdown timer with DD:HH:MM:SS format |
